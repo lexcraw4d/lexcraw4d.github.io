@@ -5,14 +5,7 @@
 	font-family: 'Playfair Display', serif;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: ' ';
-	clear: both;
-	height: 0;
-}
+
 html {
 	background: url('https://images.unsplash.com/photo-1458349726531-234ad56ba80f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1060&q=80')
 		no-repeat center center fixed;
@@ -25,15 +18,16 @@ html {
 	width: 100%;
 	background-color: #0e918c;
 	position: relative;
-	height: 70px;
+	height: 85px;
 	border-bottom: 7px solid #fcba03;
+	min-width: 0;
 }
 .navbar {
 	display: grid;
 	grid-template-columns: 0.2fr auto 1fr;
 	align-items: center;
 	height: 80px;
-	width: 90%;
+	width: 80%;
 	max-width: 1720px;
 	margin: 0 auto;
 }
@@ -61,7 +55,9 @@ html {
 	text-decoration: none;
 }
 .nav-links:hover {
-	color: #f6830f;
+	color:white;
+	background: lightgrey;
+	
 }
 .border {
 	position: fixed;
@@ -74,7 +70,7 @@ html {
 /*.mylogoyo {
 	height: 110px;
 }*/
-.mylogoyo {
+/* .mylogoyo {
 	display: flex;
 	flex-wrap: wrap;
 	position: fixed;
@@ -83,18 +79,26 @@ html {
 	margin-top: 400px;
 	max-width: 100%;
 	display: block;
+} */
+.header{
+	height:200px;
 }
 .main {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-	width: 40%;
-	background-color: #132743;
+	vertical-align: middle;
+	flex-basis: wrap;
+	width: 90vh;
+	height: 30vh;
 	color: white;
+	background-color: #132743;
 	opacity: 72%;
-	margin-top: 190px;
-	margin-left: 20px;
-	
+	flex-shrink: 0 0 0;
+	overflow: hidden;
+	min-width: 400px;
+	min-height: 0px;
+	margin-top: 130px;
 }
 h2 {
 	margin-left: 30px;
@@ -114,20 +118,30 @@ h2 {
 	font-size: 100px;
 	max-width: 100%;
 	display: block;
+	flex-shrink: 4 0 0;
+	position: relative;
+	
+	
+	
 }
+	
 .intro {
 	display: flex;
 	position: relative;
 	font-size: 25px;
 }
 
-.profilepic {
-	display: flex;
-	position: absolute;
-	margin-left: 450px;
-	margin-top: -166.6px;
-	height: 26.4%;
-	flex-wrap: wrap;
+.profilepic
+{
+	display:flex;
+	flex-wrap:wrap-reverse;
+	flex-direction: row;
+	margin-top: -370px ;
+	min-width: 0px;
+	margin-left:95vh
+	
+
+	
 }
 
 /* Mobile */
@@ -146,7 +160,7 @@ h2 {
 	.nav-menu {
 		display: grid;
 		grid-template-columns: auto;
-		background: 0e918c;
+		background: #0e918c;
 		margin: 0;
 		width: 100%;
 		position: absolute;
@@ -154,14 +168,16 @@ h2 {
 		left: -100px;
 		opacity: 0;
 		transition: all 0.5s ease;
+	;
 	}
 	#navbar-logo {
 		margin-left: 20px;
 	}
 	.nav-menu.active {
-		background: var(--darkgray);
+		background: palevioletred;
 		left: 0;
 		opacity: 1;
+		height: 35px
 		transition: all 0.5s ease;
 	}
 
