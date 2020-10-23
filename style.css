@@ -83,7 +83,7 @@ html {
 .header{
 	height:200px;
 }
-.main {
+/* .main
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
@@ -99,44 +99,62 @@ html {
 	min-width: 400px;
 	min-height: 0px;
 	margin-top: 130px;
-}
-h2 {
-	margin-left: 30px;
-	display: flex;
+} */
+.intro {
+	display:flex;
 	flex-wrap: wrap;
-
-}
-.main p {
-	margin-left: 30px;
-}
-.content {
-	font-size: 19px;
-	height: 30%;
+	background-color: #132743;
+	height:25vh;
+	position: relative;
+	margin-top: 120px;
+	max-width: 90vh;
+	
+	
 }
 .hello {
 	display: flex;
-	font-size: 100px;
-	max-width: 100%;
-	display: block;
-	flex-shrink: 4 0 0;
-	position: relative;
-	
-}
-	
-.intro {
-	display: flex;
-	position: relative;
-	font-size: 25px;
-}
+	flex-wrap: wrap;
+	margin-left: 2vh;
+	position: absolute;
+	color:orange;
+	font-size: 14vh;
+	flex-shrink: 5 0 0;
+	z-index: 2;
 
+	
+}
+.coding {
+	display: flex;
+	flex-wrap:wrap;
+	font-size:3vh;
+	color:white;
+	position: absolute;
+	padding-left: 2.6vh;
+	margin-bottom: 4vh;
+	margin-top: -50px;
+
+}
+.profile {
+	/* background-color: #fcba03; */
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	position: fixed;
+	margin-top: -373px;
+	max-width: 900px;
+	
+}
+.aside {
+	display: flex;
+}
 .profilepic
 {
-	display:flex;
-	flex-wrap:wrap-reverse;
-	flex-direction: row;
-	margin-top: -370px ;
-	min-width: 0px;
-	margin-left:95vh
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -200px;
+	margin-left:90vh;
+	max-width: 100;
+	float: 1;	
 	
 }
 
