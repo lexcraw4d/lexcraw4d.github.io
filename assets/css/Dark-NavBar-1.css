@@ -2,7 +2,7 @@
   background: #fff;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  color: teal;
+  color: #66CDAA;
   border-radius: 0;
   box-shadow: none;
   border: none;
@@ -18,6 +18,8 @@
 
 .navigation-clean-button .navbar-toggler {
   border-color: #ddd;
+  color: #66CDAA;
+  background: teal;
 }
 
 .navigation-clean-button .navbar-toggler:hover, .navigation-clean-button .navbar-toggler:focus {
@@ -25,7 +27,7 @@
 }
 
 .navigation-clean-button .navbar-toggler {
-  color: #888;
+  color: #66cdaa;
 }
 
 .navigation-clean-button .navbar-collapse, .navigation-clean-button .form-inline {
