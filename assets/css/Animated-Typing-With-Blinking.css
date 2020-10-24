@@ -76,3 +76,10 @@ div {
 .img-fluid.d-md-flex {
 }
 
+.icon.ion-social-twitter {
+}
+
+*:after {
+  font-weight: bolder;
+}
+
