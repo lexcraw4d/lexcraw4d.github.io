@@ -7,8 +7,6 @@
     <title>LCPortfolio</title>
     <meta name="twitter:image" content="">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" type="image/jpeg" sizes="640x742" href="assets/img/profile.jpg">
-    <link rel="icon" type="image/jpeg" sizes="640x742" href="assets/img/profile.jpg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
@@ -21,6 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -28,69 +27,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height: 80px;color: #ffffff;background: #333333;/*background-color: transparent;*/text-align: center;">
-        <div class="container-fluid" style="/*background-color: teal;*//*background: teal;*/opacity: 80%;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2" style="color: #66CDAA;background-color: teal;background: teal;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="#66CDAA"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-2">
-                <ul class="navbar-nav ml-auto" style="background: #333;">
-                    <li class="nav-item"><a class="nav-link" style="color: #ffffff;background: #333;" href="index.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="projects.html"><i class="fa fa-paper-plane"></i>&nbsp;Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="about.html"><i class="fa fa-user"></i>&nbsp;About</a></li>
-                    <li class="nav-item"><a class="nav-link active" style="color:#ffffff;" href="contact.html"><i class="fa fa-address-card"></i>&nbsp;Contact</a></li>
-                    <li class="nav-item"></li>
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><i class="icon ion-ios-infinite" id="brand-logo"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div></div>
-    <section class="getintouch"></section>
     <section class="getintouch">
-        <div class="container modern-form">
-            <div class="text-center">
-                <h4 style="color: #212529;font-size: 45px;">Get in touch</h4>
-            </div>
-            <hr class="modern-form__hr">
-            <div class="modern-form__form-container">
-                <form action="https://formspree.io/f/mrgoajgv" method="POST">
-                    <div class="form-row">
-                        <div class="col col-contact">
-                            <div class="form-group modern-form__form-group--padding-r" action="https://formspree.io/f/mrgoajgv"><input class="form-control input input-tr" type="text" placeholder="First Name">
-                                <div class="line-box">
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-contact">
-                            <div class="form-group modern-form__form-group--padding-l"><input class="form-control input input-tr" type="text" placeholder="Email" name="_replyto">
-                                <div class="line-box">
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col">
-                            <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" placeholder="Message" name="message"></textarea>
-                                <div class="line-box">
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col text-center"><button class="btn btn-primary submit-now" type="submit">Submit Now</button></div>
-                    </div>
+        <form data-bss-recipient="d7382859dc78ad2645d94a83ae72f420">
+            <section class="contact-clean">
+                <form data-bss-recipient="d7382859dc78ad2645d94a83ae72f420">
+                    <h2 class="text-center">Drop a line!</h2>
+                    <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" required=""></div>
+                    <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" required="" minlength="10"></div>
+                    <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+                    <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
                 </form>
-            </div>
-        </div>
-        <div class="container text-center d-flex float-none flex-row flex-grow-1 flex-shrink-1 flex-fill justify-content-center justify-content-sm-center align-items-sm-center"><a class="social-link" href="https://www.linkedin.com/in/alexiacrawford/" style="margin: 0px 5px;"><i class="fa fa-linkedin-square social-link-icon"></i>
-                <div class="social-link-effect"></div>
-            </a><a class="social-link" href="https://twitter.com/LexCraw4d" style="margin: 0px 5px;"><i class="fa fa-twitter social-link-icon"></i>
-                <div class="social-link-effect"></div>
-            </a><a class="social-link" href="https://www.instagram.com/lexannephotography/?hl=en" style="margin: 0px 5px;"><i class="fa fa-instagram social-link-icon"></i>
-                <div class="social-link-effect"></div>
-            </a><a class="social-link" href="https://github.com/lexcraw4d" style="margin: 0px 5px;"><i class="fa fa-github social-link-icon"></i>
-                <div class="social-link-effect"></div>
-            </a></div><footer class="copyright">
+            </section>
+        </form>
+    </section><footer class="copyright">
 	<div class="content">
 				
 			<i class="fa fa-envelope-o">
@@ -104,9 +65,9 @@
 	</div>
 </footer>
 
-    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>

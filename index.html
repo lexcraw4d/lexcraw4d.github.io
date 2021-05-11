@@ -7,8 +7,6 @@
     <title>LCPortfolio</title>
     <meta name="twitter:image" content="">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" type="image/jpeg" sizes="640x742" href="assets/img/profile.jpg">
-    <link rel="icon" type="image/jpeg" sizes="640x742" href="assets/img/profile.jpg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
@@ -21,6 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -28,43 +27,32 @@
 </head>
 
 <body class="text-center flex-wrap" style="background: url(&quot;https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462430_960_720.jpg&quot;) repeat;padding: 0px;opacity: 1;width: 100;">
-    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height: 80px;color: #ffffff;background: #333333;/*background-color: transparent;*/width: 100%;">
-        <div class="container-fluid" style="/*background-color: teal;*//*background: teal;*/opacity: 80%;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2" style="color: #66CDAA;background-color: teal;background: teal;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="#66CDAA"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-2">
-                <ul class="navbar-nav ml-auto" style="background: #333;">
-                    <li class="nav-item"><a class="nav-link active" style="color: #ffffff;background: #333;" href="index.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="projects.html"><i class="fa fa-paper-plane"></i>&nbsp;Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="about.html"><i class="fa fa-user"></i>&nbsp;About</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="contact.html"><i class="fa fa-address-card"></i>&nbsp;Contact</a></li>
-                    <li class="nav-item"></li>
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><i class="icon ion-ios-infinite" id="brand-logo"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div></div>
     <main></main>
-    <div class="text-nowrap d-flex justify-content-center align-items-center animated-text noSelect" style="background: rgba(255,255,255,0);border-style: none;margin-top: 16px;width: 50%;margin-right: auto;margin-left: auto;"></div>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12" data-bss-hover-animate="rubberBand">
-                    <h1 class="display-2 text-center" style="font-size: 48px;font-family: Inconsolata, monospace;font-style: normal;font-weight: 600px;"><strong>I am Lex Crawford</strong></h1>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card text-center"></div><img class="rounded-circle" data-bss-hover-animate="swing" src="assets/img/profile.jpg" width="200px" loading="lazy">
+    <div style="height: 70px;"></div><img class="rounded-circle" data-bss-hover-animate="swing" src="assets/img/profile.jpg" width="300px" loading="lazy">
     <div class="text-nowrap d-flex justify-content-center align-items-center animated-text noSelect" style="background: rgba(255,255,255,0);border-style: none;margin-top: 16px;width: 50%;margin-right: auto;margin-left: auto;"><div class="caption v-middle text-center">
 	<h1 class="cd-headline clip">
-		<span class="blc">I am a</span>
+		<span class="blc">I am</span>
 		<span class="cd-words-wrapper">
-			<b class="is-visible">Developer.</b>
-			<b>Teacher.</b>
-			<b>Programmer.</b>
-			<b>Student.</b>
-			<b>Photographer.</b>
-			<b>Traveler.</b>
-			<b>Designer.</b>
+			<b class="is-visible"> a developer.</b>
+			<b>a tech enthusiast.</b>
+			<b>a programmer.</b>
+			<b>an innovator.</b>
+            <b>an educator.</b>
+            <b>an entrepreneur.</b>
+			<b>a photographer.</b>
+			<b>a designer.</b>
 		</span>
 		<span class="blinking">|</span>
 	</h1>
@@ -96,6 +84,7 @@
     <div id="comparison"></div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>

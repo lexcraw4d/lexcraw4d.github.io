@@ -7,8 +7,6 @@
     <title>LCPortfolio</title>
     <meta name="twitter:image" content="">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" type="image/jpeg" sizes="640x742" href="assets/img/profile.jpg">
-    <link rel="icon" type="image/jpeg" sizes="640x742" href="assets/img/profile.jpg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
@@ -21,6 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -28,28 +27,25 @@
 </head>
 
 <body style="text-align: center;">
-    <div>
-        <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height: 80px;color: #ffffff;background: #333333;/*background-color: transparent;*/">
-            <div class="container-fluid" style="/*background-color: teal;*//*background: teal;*/opacity: 80%;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2" style="color: #66CDAA;background-color: teal;background: teal;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="#66CDAA"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-2" style="text-align: center;">
-                    <ul class="navbar-nav ml-auto" style="background: #333;">
-                        <li class="nav-item"><a class="nav-link" style="color: #ffffff;background: #333;" href="index.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="projects.html"><i class="fa fa-paper-plane"></i>&nbsp;Projects</a></li>
-                        <li class="nav-item"><a class="nav-link active" style="color:#ffffff;" href="about.html"><i class="fa fa-user"></i>&nbsp;About</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="contact.html"><i class="fa fa-address-card"></i>&nbsp;Contact</a></li>
-                        <li class="nav-item"></li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><i class="icon ion-ios-infinite" id="brand-logo"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </nav>
-    </div>
-    <h1 class="display-2 text-center" style="color: #008080;font-family: Inconsolata, monospace;">About</h1>
+        </div>
+    </nav>
+    <h1 class="display-2 text-center" style="color: #008080;font-family: Inconsolata, monospace;"></h1>
     <div class="highlight-phone">
         <div class="container">
             <div class="row justify-content-center align-self-center">
                 <div class="col-md-8">
                     <div class="d-flex flex-column flex-grow-1 flex-shrink-1 flex-fill justify-content-center align-items-center align-content-center align-self-center flex-wrap intro">
-                        <h2>Lex Crawford</h2>
+                        <h4>About Me</h4>
                         <p class="text-left flex-grow-1 flex-shrink-1 align-self-center mx-auto" src="assets/img/officepic.jpg" style="max-width: 300px;padding-right: 0px;padding-left: 0px;text-align: center;width: 400px;"><br>Hi there! I am Lex (if you couldn't guess by now).I&nbsp; am an experienced Full-Stack Jr. Web Developer skilled at programming<br>dynamic and versatile web applications. I am a dedicated team player that<br>brings positive energy, integrity, and strong critical thinking problem solving<br>skills. I am looking to maximize productivity, minimize system downtown, and meet established goals of the business. I have my Master of Arts in Teaching, B.S. Business Administration, and&nbsp; Full-Stack Web Development Certification from the well-known 24 week rigorous Boot Camp at the University of Texas. Please do not hesitate to contact me any time. <br><br><strong><em>Let's grow together.</em></strong><br><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:cb999c2c-ef2d-4417-9a00-5776a51d5164">View My Resume Here</a><br><br><br></p>
                     </div>
                 </div>
@@ -91,6 +87,7 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>
