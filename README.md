@@ -8,7 +8,7 @@
 
 # About
 The Portfolio Repository was made for personal and professional usage. I will continue to update it as I complete projects. It will be used to showcase my work and accomplishments as a Web-Developer. The source code is available under the standard [MIT License](https://github.com/lexcraw4d/lexcraw4d.github.io/blob/main/LICENSE.txt).
-![Screenshot of current published portfolio]()
+
 # Installation
 To install please visit [my repository](https://github.com/lexcraw4d/lexcraw4d.github.io) and look at the uploaded files via GitHub Deployment. 
 
