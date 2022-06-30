@@ -14,7 +14,6 @@ To install please visit [my repository](https://github.com/lexcraw4d/lexcraw4d.g
 
 # Usage
 ##### Visual Studio Code
-![Visual Studio Code](assets/ScreenshotVS.jpg)
 Visual Studio Code (VS) was used to edit and improve the functionality of the given SEO website.
 
 [Visual Studio Code](https://code.visualstudio.com/) is an lightning fast FREE open-source editor designed by [Microsoft](https://www.microsoft.com/en-us/) with developers in mind. Visual Studio code allows developers to easily apply the edit-build-debug cycle, resulting in more productivity on your ideas.
