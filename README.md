@@ -8,13 +8,12 @@
 
 # About
 The Portfolio Repository was made for personal and professional usage. I will continue to update it as I complete projects. It will be used to showcase my work and accomplishments as a Web-Developer. The source code is available under the standard [MIT License](https://github.com/lexcraw4d/lexcraw4d.github.io/blob/main/LICENSE.txt).
-![Screenshot of current published portfolio]()
+
 # Installation
 To install please visit [my repository](https://github.com/lexcraw4d/lexcraw4d.github.io) and look at the uploaded files via GitHub Deployment. 
 
 # Usage
 ##### Visual Studio Code
-![Visual Studio Code](assets/ScreenshotVS.jpg)
 Visual Studio Code (VS) was used to edit and improve the functionality of the given SEO website.
 
 [Visual Studio Code](https://code.visualstudio.com/) is an lightning fast FREE open-source editor designed by [Microsoft](https://www.microsoft.com/en-us/) with developers in mind. Visual Studio code allows developers to easily apply the edit-build-debug cycle, resulting in more productivity on your ideas.
