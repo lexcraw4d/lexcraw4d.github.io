@@ -213,6 +213,7 @@ input, select, textarea {
 		max-width: 100%;
 		width: 1400px;
 	}
+	
 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
@@ -1732,7 +1733,9 @@ input, select, textarea {
 		section > .container, section:last-child, article > :last-child,
 		article > .container, article:last-child {
 			margin-bottom: 0;
+			
 		}
+		
 
 		.row > section, .row > article {
 			margin-bottom: 0;
@@ -1748,7 +1751,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			height: 10rem;
+			height: auto;
 		}
 
 		.image.avatar48 {
@@ -2238,7 +2241,7 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				padding: 2em 0;
 				background-size: cover;
 				background-position: center center;
 			}
